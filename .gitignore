@@ -1,0 +1,23 @@
+# Build artifacts
+/build/
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Object files and libraries
+*.o
+*.obj
+*.so
+*.dll
+*.dylib
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+
+# macOS system files
+.DS_Store 
