@@ -1,5 +1,5 @@
-#include "gtest/gtest.h"
 #include "RecursiveRealArithmetic.h"
+#include "gtest/gtest.h"
 
 // Test to verify that compute returns twice the input
 TEST(RecursiveRealArithmeticTest, ComputesDouble) {
@@ -23,4 +23,4 @@ int main(int argc, char **argv) {
     ::testing::InitGoogleTest(&argc, argv);
     return RUN_ALL_TESTS();
 }
-*/ 
+*/
