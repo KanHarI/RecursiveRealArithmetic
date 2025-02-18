@@ -11,6 +11,7 @@ include_directories(${PROJECT_SOURCE_DIR}/include)
 # Add library target
 add_library(${PROJECT_NAME} STATIC
     src/RecursiveRealArithmetic.cpp
+    src/utils.cpp
 )
 
 # Optionally set target properties
