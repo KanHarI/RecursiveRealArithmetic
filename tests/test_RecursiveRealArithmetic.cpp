@@ -88,4 +88,12 @@ TEST(IntegerTest, Negative) {
 TEST(ZeroTest, Zero) {
     Zero zero;
     int acc = 10;
+    auto result = zero.compute(acc);
+    bool sign;
+    int exponent;
+    vector<bool> mantissa;
+    std::tie(sign, exponent, mantissa) = result;
+    EXPECT_FALSE(sign);
+    EXPECT_EQ(exponent, 0);
+    EXPECT_EQ(mantissa.size(), static_cast<size_t>(0));
 }
